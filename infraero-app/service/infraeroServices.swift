@@ -9,7 +9,7 @@ class InfraeroServices{
     
     // CRIANDO VOOS
     private var vooGoianiaSaoPaulo:Voo
-    private var vooGoianiaSantos:Voo
+    private var vooGoianiaSantos:Voo
     private var vooBrasiliaPalmas:Voo
     private var vooFortalezaCuritiba:Voo
     private var vooFortalezaManaus:Voo
