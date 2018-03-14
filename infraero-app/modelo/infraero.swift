@@ -16,6 +16,10 @@ class Infraero {
         self._aeroportos = Array<Aeroporto>()
     }
     
+    func aeroportos()->Array<Aeroporto> {
+        return self._aeroportos;
+    }
+    
     func adicionarAeroporto(aeroporto:Aeroporto)->Void {
         self._aeroportos.append(aeroporto);
     }
