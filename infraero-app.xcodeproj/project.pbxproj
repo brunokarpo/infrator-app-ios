@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D3B5F3C20598929006705FB /* companhia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3B5F3B20598928006705FB /* companhia.swift */; };
+		4D3B5F3E20598930006705FB /* aeroporto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3B5F3D20598930006705FB /* aeroporto.swift */; };
+		4D3B5F402059893B006705FB /* infraero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3B5F3F2059893B006705FB /* infraero.swift */; };
+		4D3B5F4220598944006705FB /* Voo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3B5F4120598943006705FB /* Voo.swift */; };
 		57017CA8204B02DB00FB7DD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57017CA7204B02DB00FB7DD7 /* ViewController.swift */; };
 		57017CAB204B02DB00FB7DD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57017CA9204B02DB00FB7DD7 /* Main.storyboard */; };
 		57017CAD204B02DB00FB7DD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57017CAC204B02DB00FB7DD7 /* Assets.xcassets */; };
@@ -14,10 +18,6 @@
 		57017CC6204B056300FB7DD7 /* AeroportoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57017CC5204B056300FB7DD7 /* AeroportoViewController.swift */; };
 		57017CC8204B058A00FB7DD7 /* CelAeroportoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57017CC7204B058A00FB7DD7 /* CelAeroportoTableViewCell.swift */; };
 		57017CCC204B07A600FB7DD7 /* infraeroServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57017CCB204B07A600FB7DD7 /* infraeroServices.swift */; };
-		575D9421204B16D4003E10EB /* infraero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575D941D204B16D4003E10EB /* infraero.swift */; };
-		575D9422204B16D4003E10EB /* Voo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575D941E204B16D4003E10EB /* Voo.swift */; };
-		575D9423204B16D4003E10EB /* aeroporto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575D941F204B16D4003E10EB /* aeroporto.swift */; };
-		575D9424204B16D4003E10EB /* companhia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575D9420204B16D4003E10EB /* companhia.swift */; };
 		575D9426204B1A67003E10EB /* CelVoosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575D9425204B1A67003E10EB /* CelVoosTableViewCell.swift */; };
 		575D9428204B1C56003E10EB /* VoosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575D9427204B1C56003E10EB /* VoosViewController.swift */; };
 		575D942A204B240F003E10EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575D9429204B240E003E10EB /* AppDelegate.swift */; };
@@ -25,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D3B5F3B20598928006705FB /* companhia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = companhia.swift; sourceTree = "<group>"; };
+		4D3B5F3D20598930006705FB /* aeroporto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = aeroporto.swift; sourceTree = "<group>"; };
+		4D3B5F3F2059893B006705FB /* infraero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = infraero.swift; sourceTree = "<group>"; };
+		4D3B5F4120598943006705FB /* Voo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Voo.swift; sourceTree = "<group>"; };
 		57017CA2204B02DB00FB7DD7 /* infraero-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "infraero-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57017CA7204B02DB00FB7DD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		57017CAA204B02DB00FB7DD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -34,10 +38,6 @@
 		57017CC5204B056300FB7DD7 /* AeroportoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AeroportoViewController.swift; sourceTree = "<group>"; };
 		57017CC7204B058A00FB7DD7 /* CelAeroportoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelAeroportoTableViewCell.swift; sourceTree = "<group>"; };
 		57017CCB204B07A600FB7DD7 /* infraeroServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infraeroServices.swift; sourceTree = "<group>"; };
-		575D941D204B16D4003E10EB /* infraero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = infraero.swift; path = "../../../../Downloads/infraero-master-f83bd1327bbdf69aa5d6e26ceedc17b2d99404d9/infraero/modelo/infraero.swift"; sourceTree = "<group>"; };
-		575D941E204B16D4003E10EB /* Voo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Voo.swift; path = "../../../../Downloads/infraero-master-f83bd1327bbdf69aa5d6e26ceedc17b2d99404d9/infraero/modelo/Voo.swift"; sourceTree = "<group>"; };
-		575D941F204B16D4003E10EB /* aeroporto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = aeroporto.swift; path = "../../../../Downloads/infraero-master-f83bd1327bbdf69aa5d6e26ceedc17b2d99404d9/infraero/modelo/aeroporto.swift"; sourceTree = "<group>"; };
-		575D9420204B16D4003E10EB /* companhia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = companhia.swift; path = "../../../../Downloads/infraero-master-f83bd1327bbdf69aa5d6e26ceedc17b2d99404d9/infraero/modelo/companhia.swift"; sourceTree = "<group>"; };
 		575D9425204B1A67003E10EB /* CelVoosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelVoosTableViewCell.swift; sourceTree = "<group>"; };
 		575D9427204B1C56003E10EB /* VoosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoosViewController.swift; sourceTree = "<group>"; };
 		575D9429204B240E003E10EB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -110,10 +110,10 @@
 		575D941C204B16BF003E10EB /* modelo */ = {
 			isa = PBXGroup;
 			children = (
-				575D941F204B16D4003E10EB /* aeroporto.swift */,
-				575D9420204B16D4003E10EB /* companhia.swift */,
-				575D941D204B16D4003E10EB /* infraero.swift */,
-				575D941E204B16D4003E10EB /* Voo.swift */,
+				4D3B5F3D20598930006705FB /* aeroporto.swift */,
+				4D3B5F3B20598928006705FB /* companhia.swift */,
+				4D3B5F4120598943006705FB /* Voo.swift */,
+				4D3B5F3F2059893B006705FB /* infraero.swift */,
 			);
 			path = modelo;
 			sourceTree = "<group>";
@@ -191,14 +191,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				575D942A204B240F003E10EB /* AppDelegate.swift in Sources */,
-				575D9424204B16D4003E10EB /* companhia.swift in Sources */,
-				575D9422204B16D4003E10EB /* Voo.swift in Sources */,
+				4D3B5F3E20598930006705FB /* aeroporto.swift in Sources */,
+				4D3B5F402059893B006705FB /* infraero.swift in Sources */,
 				575D942C204B27C0003E10EB /* VooDetalheViewController.swift in Sources */,
 				57017CA8204B02DB00FB7DD7 /* ViewController.swift in Sources */,
 				57017CCC204B07A600FB7DD7 /* infraeroServices.swift in Sources */,
-				575D9421204B16D4003E10EB /* infraero.swift in Sources */,
+				4D3B5F4220598944006705FB /* Voo.swift in Sources */,
+				4D3B5F3C20598929006705FB /* companhia.swift in Sources */,
 				57017CC8204B058A00FB7DD7 /* CelAeroportoTableViewCell.swift in Sources */,
-				575D9423204B16D4003E10EB /* aeroporto.swift in Sources */,
 				575D9426204B1A67003E10EB /* CelVoosTableViewCell.swift in Sources */,
 				575D9428204B1C56003E10EB /* VoosViewController.swift in Sources */,
 				57017CC6204B056300FB7DD7 /* AeroportoViewController.swift in Sources */,
